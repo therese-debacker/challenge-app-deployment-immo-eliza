@@ -2,7 +2,6 @@
 import pickle
 import pandas as pd
 
-
 def predict(data: pd.DataFrame) -> float:
     """
     Function to predict a price based on preprocessed input data

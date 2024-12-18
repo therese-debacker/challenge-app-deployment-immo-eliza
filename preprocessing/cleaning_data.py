@@ -2,7 +2,6 @@
 import pandas as pd
 import numpy as np
 
-
 def dataframe_zip_code() -> pd.DataFrame:
     """
     Function that will clean the CSV file containing the zip code and the necessary data not provided by the user

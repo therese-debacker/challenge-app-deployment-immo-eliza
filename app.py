@@ -5,7 +5,6 @@ import streamlit as st
 from preprocessing.cleaning_data import dataframe_zip_code, preprocess
 from predict.prediction import predict
 
-
 def main():
     """
     Main script to launch the app and get input data from users
