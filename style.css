@@ -1,19 +1,23 @@
 /* Main title */
-h1#real-estate-price-prediction {text-align: center; font-family: Helvetica; font-weight:400;color: #2b6777; }
+h1#real-estate-price-prediction {text-align: center; font-family: "Segoe UI"; font-weight:500;color: #27334e; font-size:50px; }
 /* Subheader */
-.st-emotion-cache-1onx6iv h2 {text-align: center; font-size: 22px; font-weight: 300;}
+.stHeading h2 { color: #27334e; font-size: 26px; font-weight: 500;}
+/* Sidebar */
+section .stSidebar { width: 400px;}
 /* Paragraphs */
-.st-emotion-cache-1onx6iv p, .st-emotion-cache-1k21p6p p {font-size:18px; padding-bottom:10px;} 
+.st-emotion-cache-1onx6iv p, .st-emotion-cache-1k21p6p p {font-size:20px; padding-bottom:12px;} 
 /* Box around the questions */
-.stVerticalBlock .eiemyj5 { border: 1px solid #e7eff5; border-radius:15px;padding: 20px;}
-.st-emotion-cache-0 .st-emotion-cache-0 .st-emotion-cache-0 { border: none;}
+.stVerticalBlock .eiemyj5 { border: 1px solid #E2F0FE; border-radius:10px; padding: 30px;}
+.st-emotion-cache-0 .st-emotion-cache-0 .st-emotion-cache-0 { border: none;padding:0;}
 /* Button */
 .stButton {text-align: center;}
-.st-emotion-cache-1mcrqlm {color: #fff; border-color: #2b6777;background-color: #2b6777;}
-.st-emotion-cache-1mcrqlm:hover { background-color: #fff; color: #2b6777;border: 1px solid #2b6777;}
-.st-emotion-cache-1mcrqlm:active {color: #000;border-color: #000; background-color: #fff;}
+/* .stButton button { width: 100%;} */
+.stButton button {color: #fff; border-color: #DF4C73;background-color: #DF4C73;}
+.stButton button:hover { background-color: #fff; color: #DF4C73;border: 1px solid #DF4C73;}
+.stButton button:active {color: #27334e;border-color: #27334e; background-color: #fff;}
+.stButton button:focus:not(:active) {color: #fff; border-color: #DF4C73;background-color: #DF4C73;}
 /* Prediction box */
-.stAlertContainer {background-color: #52ab98;}
+.stAlertContainer {background-color: #DF4C73;}
 .stAlertContainer { color: #fff;}
 /* Remove +/- in number_input */
 .st-emotion-cache-1k5fi8b {display:none;}
